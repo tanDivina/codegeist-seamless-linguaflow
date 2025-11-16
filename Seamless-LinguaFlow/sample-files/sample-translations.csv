@@ -1,0 +1,9 @@
+Source,Target,Notes
+"Click the Save button","Haga clic en el botón Guardar","UI Element"
+"Enter your password","Ingrese su contraseña","Form Field"
+"The file was uploaded successfully","El archivo se cargó exitosamente","Success Message"
+"Click the Save button","Presione el botón Salvar","UI Element - Inconsistent!"
+"Invalid username or password","Nombre de usuario o contraseña inválidos","Error Message"
+"Please try again later","Por favor intente nuevamente más tarde","Error Message"
+"The file was uploaded successfully","El archivo fue subido con éxito","Success Message - Inconsistent!"
+"Your changes have been saved","Sus cambios han sido guardados","Confirmation"

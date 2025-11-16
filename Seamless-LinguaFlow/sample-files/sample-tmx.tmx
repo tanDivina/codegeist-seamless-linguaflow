@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmx version="1.4">
+  <header creationtool="Seamless LinguaFlow" creationtoolversion="1.0" datatype="plaintext" segtype="sentence" adminlang="en" srclang="en">
+  </header>
+  <body>
+    <tu tuid="1">
+      <tuv xml:lang="en">
+        <seg>Save your work regularly</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Guarde su trabajo regularmente</seg>
+      </tuv>
+    </tu>
+    <tu tuid="2">
+      <tuv xml:lang="en">
+        <seg>Click the Submit button to proceed</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Haga clic en el botón Enviar para continuar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="3">
+      <tuv xml:lang="en">
+        <seg>Save your work regularly</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Almacene su trabajo de forma regular</seg>
+      </tuv>
+    </tu>
+    <tu tuid="4">
+      <tuv xml:lang="en">
+        <seg>The system will automatically backup your data</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>El sistema hará una copia de seguridad automática de sus datos</seg>
+      </tuv>
+    </tu>
+    <tu tuid="5">
+      <tuv xml:lang="en">
+        <seg>Click the Submit button to proceed</seg>
+      </tuv>
+      <tuv xml:lang="es">
+        <seg>Presione el botón Enviar para proceder</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,23 @@
+Welcome to Seamless LinguaFlow - Your Translation Management Solution
+
+Getting Started Guide
+
+This comprehensive guide will help you understand how to use our AI-powered translation management system effectively. Our platform combines the power of artificial intelligence with professional translation workflows to deliver exceptional results.
+
+Key Features:
+- AI-powered translation engine using state-of-the-art language models
+- Automated consistency analysis that detects terminology inconsistencies
+- Professional workflow management with 5-stage translation pipeline
+- Native integration with Atlassian Jira for seamless project management
+- Support for multiple file formats including XLIFF, TMX, and gettext
+
+Quality Assurance Process:
+Our system includes multiple quality checkpoints to ensure translation accuracy. The AI quality checker analyzes text for grammatical errors, awkward phrasing, and clarity issues. The automated consistency analyzer identifies repeated segments that have been translated differently, helping maintain terminology consistency across large translation projects.
+
+Getting the Best Results:
+To achieve optimal translation quality, we recommend following our best practices. Start by uploading your source content in any supported format. Use the AI quality checker to improve the source text clarity before translation. Configure your project preferences including target language and consistency checking requirements based on your content type.
+
+For technical documentation and user interface text, enable strict consistency checking to maintain professional standards. For creative content such as marketing materials, you may choose to allow natural variation in translation to achieve better stylistic flow.
+
+Support and Resources:
+Our comprehensive documentation includes step-by-step tutorials, best practices guides, and troubleshooting information. For additional assistance, contact our support team through the integrated Atlassian help system.

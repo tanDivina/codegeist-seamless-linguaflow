@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="seamless-linguaflow" tool-name="Seamless LinguaFlow Demo"/>
+    </header>
+    <body>
+      <trans-unit id="1">
+        <source>Welcome to our customer portal</source>
+        <target>Bienvenue sur notre portail client</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Please update your profile information</source>
+        <target></target>
+        <note>Needs translation</note>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Save your changes before continuing</source>
+        <target>Enregistrez vos modifications avant de continuer</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Your account has been updated successfully</source>
+        <target></target>
+        <note>Needs translation</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Contact support if you need assistance</source>
+        <target>Contactez le support si vous avez besoin d'aide</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

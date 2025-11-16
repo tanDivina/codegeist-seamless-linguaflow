@@ -1,0 +1,51 @@
+name: Forge Deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: Seamless-LinguaFlow/package-lock.json
+    
+    - name: Install dependencies
+      run: |
+        cd Seamless-LinguaFlow
+        npm ci
+    
+    - name: Run ESLint
+      run: |
+        cd Seamless-LinguaFlow
+        npm run lint
+
+  validate:
+    runs-on: ubuntu-latest
+    needs: lint
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Install Forge CLI
+      run: npm install -g @forge/cli
+    
+    - name: Validate manifest
+      run: |
+        cd Seamless-LinguaFlow
+        forge validate

@@ -1,0 +1,41 @@
+modules:
+  jira:issuePanel:
+    - key: main
+      resource: main
+      resolver:
+        function: resolver
+      render: native
+      title: Seamless LinguaFlow
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  rovo:agent:
+    - key: translation-agent
+      name: Translation Agent
+      description: Translates text between different languages
+      prompt: You are a helpful translation assistant. You can translate text between different languages. When a user provides text and specifies a target language, translate the text accurately while preserving the original meaning and tone.
+      resolver:
+        function: translation-resolver
+  function:
+    - key: resolver
+      handler: index.handler
+    - key: translation-resolver
+      handler: rovo.handler
+    - key: text-checker
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+permissions:
+  scopes:
+    - read:jira-work
+    - 'storage:app'
+    - write:jira-work
+  external:
+    fetch:
+      backend:
+        - 'generativelanguage.googleapis.com'
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/33b5ca02-00ae-4ca1-9bf6-1ecbdf465e03
